@@ -12,4 +12,5 @@ jobs:
     steps:
       - name: Greetings
         run: echo "HELLO MMK"
+        run: pwd
        
