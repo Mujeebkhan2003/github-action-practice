@@ -1,0 +1,15 @@
+name: schedule workflow
+
+on:
+ schedule:
+   - cron: "06 16 * * *"
+
+ jobs:
+   run-scrip:
+     runs-on: ubuntu-latest
+
+     steps:
+       - name: print msg
+         run: echo "scheduled q  workflow executed"
+       
+    
